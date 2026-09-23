@@ -3,6 +3,9 @@ preview-dark.html
 preview-light.html
 _preview/
 
+# 给用户看的本地交付说明，不进公开仓库
+交付说明.md
+
 # 头像中间产物：原始图不必进版本库，成品 avatar.png 要进（hero.svg 内嵌它）
 assets/avatar-raw.png
 
