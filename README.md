@@ -35,9 +35,8 @@
 
 </div>
 
-共 10 个公开仓库：
+共 9 个公开仓库：
 
-- `awslew` JavaScript · GitHub profile README: hand-built self-contained SVG hero, project showcase and contribution graph, rebuilt daily by GitHub Actions. 个人主页：自包含 SVG，深浅双主题，每日自动更新。
 - `web-search-mcp` JavaScript · 免费多引擎联网检索 MCP：中文走国内引擎融合，英文走国际链，不用 API key。
 - `screenshot-paste-assistant` Python · Win+Shift+S 截图后 Ctrl+V 直接粘成图片文件，恢复缺失的 CF_HDROP。
 - `continuity-orchestrator` TypeScript · 让任意 MCP 客户端读取你明确共享的本地项目源码，真实路径与行号。
@@ -67,12 +66,12 @@
 <div align="center">
 
 <a href="https://github.com/awslew?tab=followers"><img src="https://img.shields.io/badge/followers-follow-2F81F7?style=flat-square&logo=github&logoColor=white" alt="Follow"></a>
-<a href="https://github.com/awslew?tab=repositories"><img src="https://img.shields.io/badge/repositories-10-2F81F7?style=flat-square&logo=github&logoColor=white" alt="Repositories"></a>
-<a href="https://github.com/awslew?tab=stars"><img src="https://img.shields.io/badge/stars-10-2F81F7?style=flat-square&logo=github&logoColor=white" alt="Stars"></a>
+<a href="https://github.com/awslew?tab=repositories"><img src="https://img.shields.io/badge/repositories-9-2F81F7?style=flat-square&logo=github&logoColor=white" alt="Repositories"></a>
+<a href="https://github.com/awslew?tab=stars"><img src="https://img.shields.io/badge/stars-9-2F81F7?style=flat-square&logo=github&logoColor=white" alt="Stars"></a>
 <img src="https://komarev.com/ghpvc/?username=awslew&color=2F81F7&style=flat-square&label=PROFILE+VIEWS" alt="Profile views">
 
 <br>
 
-<sub>22 commits · 10 repos · 每日由 GitHub Actions 自动更新</sub>
+<sub>125 commits · 9 repos · 每日由 GitHub Actions 自动更新</sub>
 
 </div>

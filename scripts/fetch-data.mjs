@@ -42,6 +42,9 @@ async function apiFetch(path, { method = 'GET', body } = {}) {
   return res.json();
 }
 
+/** 与账号同名的仓库 = 承载本 README 的主页仓库，不算「项目」 */
+const isProfileRepo = (r) => r.name === OWNER;
+
 /** 统一取数接口：CI 用 API，本地用 gh */
 const viaApi = Boolean(TOKEN);
 const getUser = () => (viaApi ? apiFetch(`/users/${OWNER}`) : ghCli(['api', `users/${OWNER}`]));
@@ -142,7 +145,7 @@ async function main() {
   };
 
   console.log('→ repos');
-  const repos = (await getRepos()).filter((r) => !r.isFork);
+  const repos = (await getRepos()).filter((r) => !r.isFork && !isProfileRepo(r));
 
   // 语言分布按仓库数计（比字节数更能反映「在做什么」）
   const langCount = new Map();

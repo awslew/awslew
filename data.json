@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T03:31:46.266Z",
+  "generatedAt": "2026-09-23T03:35:08.588Z",
   "owner": "awslew",
   "user": {
     "login": "awslew",
@@ -16,19 +16,6 @@
     "created_at": "2022-07-24T01:40:29Z"
   },
   "repos": [
-    {
-      "name": "awslew",
-      "description": "GitHub profile README: hand-built self-contained SVG hero, project showcase and contribution graph, rebuilt daily by GitHub Actions. 个人主页：自包含 SVG，深浅双主题，每日自动更新。",
-      "stars": 1,
-      "forks": 0,
-      "language": "JavaScript",
-      "url": "https://github.com/awslew/awslew",
-      "homepage": null,
-      "topics": [],
-      "license": null,
-      "pushedAt": "2026-09-23T03:31:31Z",
-      "createdAt": "2026-09-23T03:10:37Z"
-    },
     {
       "name": "web-search-mcp",
       "description": "Free multi-engine web search & content extraction MCP server for AI coding agents - no API key required. 免费多引擎联网检索与正文抽取 MCP 服务器：中文走国内引擎融合，英文走国际链，含 RRF 融合排序与结果缓存。",
@@ -231,23 +218,23 @@
       "count": 4
     },
     {
-      "name": "JavaScript",
+      "name": "TypeScript",
       "count": 3
     },
     {
-      "name": "TypeScript",
-      "count": 3
+      "name": "JavaScript",
+      "count": 2
     }
   ],
   "contribution": {
-    "yearTotal": 33,
-    "yearCommits": 23,
+    "yearTotal": 34,
+    "yearCommits": 24,
     "prs": 0,
     "issues": 0,
     "reposContributed": 7,
-    "totalCommits": 22,
-    "activeDaysInWindow": 4,
-    "maxPerDay": 28,
+    "totalCommits": 125,
+    "activeDaysInWindow": 2,
+    "maxPerDay": 31,
     "days": [
       {
         "date": "2025-09-21",
@@ -1876,12 +1863,12 @@
       },
       {
         "date": "2026-08-12",
-        "contributionCount": 2,
+        "contributionCount": 0,
         "weekday": 3
       },
       {
         "date": "2026-08-13",
-        "contributionCount": 1,
+        "contributionCount": 3,
         "weekday": 4
       },
       {
@@ -2081,19 +2068,19 @@
       },
       {
         "date": "2026-09-22",
-        "contributionCount": 2,
+        "contributionCount": 0,
         "weekday": 2
       },
       {
         "date": "2026-09-23",
-        "contributionCount": 28,
+        "contributionCount": 31,
         "weekday": 3
       }
     ]
   },
   "totals": {
-    "publicRepos": 10,
-    "stars": 10,
+    "publicRepos": 9,
+    "stars": 9,
     "forks": 0,
     "accountAgeDays": 1522
   }
