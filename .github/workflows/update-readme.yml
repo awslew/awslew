@@ -5,11 +5,9 @@ on:
   schedule:
     - cron: '17 3 * * *' # UTC 03:17 = 北京时间 11:17
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - 'scripts/**'
-      - 'assets/avatar-raw.png'
+  # 刻意不在 push 时触发：本 workflow 会回写 README/assets 并产生一次提交，
+  # 若再被 push 触发就会形成「提交 → 触发 → 再提交」的循环，也会和本地推送打架。
+  # 想立即刷新就手动跑：gh workflow run update-readme.yml
 
 permissions:
   contents: write
