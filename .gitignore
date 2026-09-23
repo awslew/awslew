@@ -1,0 +1,32 @@
+# 本地预览产物（CI 不生成，只在自己机器上看）
+preview-dark.html
+preview-light.html
+_preview/
+
+# 头像中间产物：原始图不必进版本库，成品 avatar.png 要进（hero.svg 内嵌它）
+assets/avatar-raw.png
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+*.log
+
+# 依赖与虚拟环境（本项目无依赖，但防止后续误加）
+node_modules/
+package-lock.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 凭证类：本仓库不该出现，写在这里是防止将来手滑
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+secrets/
