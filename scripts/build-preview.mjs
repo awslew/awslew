@@ -190,17 +190,29 @@ const page = (scheme) => `<!doctype html>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-markdown-css@5.5.1/github-markdown.css">
 <style>
   html, body { margin: 0; padding: 0; background: ${scheme === 'dark' ? '#0d1117' : '#ffffff'}; }
-  .markdown-body { box-sizing: border-box; min-width: 200px; max-width: 1012px; margin: 0 auto; padding: 32px 24px 64px; }
+  /* 按 GitHub 个人主页实测容器宽度复刻：README 卡片内容区约 397px */
+  :root { --container: 397px; }
+  .markdown-body {
+    box-sizing: border-box;
+    min-width: 200px;
+    max-width: var(--container);
+    margin: 0 auto;
+    padding: 24px 16px 48px;
+    font-size: 14px;
+  }
   .markdown-body img { max-width: 100%; }
   .markdown-body picture { display: block; }
   .markdown-body picture img { width: 100%; height: auto; }
   .markdown-body details { border: none; }
   .markdown-body details > summary { cursor: pointer; }
-  /* GitHub 对表格的默认样式补充 */
-  .markdown-body table { display: table; width: 100%; }
+  .markdown-body h2 { font-size: 1.25em; padding-bottom: .3em; }
+  .markdown-body ul { padding-left: 1.4em; }
 </style>
 </head>
 <body>
+<div style="max-width:var(--container); margin:0 auto; padding:16px 16px 0; color:${scheme === 'dark' ? '#7d8590' : '#6e7781'}; font:12px -apple-system,Segoe UI,sans-serif; border-bottom:1px solid ${scheme === 'dark' ? '#21262d' : '#d0d7de'};">
+  模拟 GitHub 个人主页窄栏容器（397px）
+</div>
 <article class="markdown-body">
 ${body}
 </article>

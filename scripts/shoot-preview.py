@@ -10,9 +10,9 @@ OUT = ROOT / "_preview"
 OUT.mkdir(exist_ok=True)
 
 SHOTS = [
-    ("preview-dark.html", "dark", 1280, 900, "desktop-dark"),
-    ("preview-light.html", "light", 1280, 900, "desktop-light"),
-    ("preview-dark.html", "dark", 414, 900, "mobile-dark"),
+    ("preview-dark.html", "dark", 460, 900, "column-dark"),
+    ("preview-light.html", "light", 460, 900, "column-light"),
+    ("preview-dark.html", "dark", 1280, 900, "wide-dark"),
 ]
 
 
