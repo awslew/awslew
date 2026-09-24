@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T03:35:08.588Z",
+  "generatedAt": "2026-09-24T08:30:33.968Z",
   "owner": "awslew",
   "user": {
     "login": "awslew",
@@ -17,49 +17,65 @@
   },
   "repos": [
     {
-      "name": "web-search-mcp",
-      "description": "Free multi-engine web search & content extraction MCP server for AI coding agents - no API key required. 免费多引擎联网检索与正文抽取 MCP 服务器：中文走国内引擎融合，英文走国际链，含 RRF 融合排序与结果缓存。",
+      "name": "webgpt-drive",
+      "description": "Drive your logged-in web ChatGPT from any coding agent - queries, image generation, reference-image editing, model/reasoning switching, plugin selection. No API key, no account switching. 让 agent 直接用你已登录的网页版 ChatGPT。",
       "stars": 1,
       "forks": 0,
       "language": "JavaScript",
-      "url": "https://github.com/awslew/web-search-mcp",
+      "url": "https://github.com/awslew/webgpt-drive",
       "homepage": null,
       "topics": [
-        "llm",
+        "browser-automation",
+        "chatgpt",
+        "developer-tools",
+        "gpt-image",
+        "image-generation",
         "mcp",
-        "mcp-server",
-        "no-api-key",
-        "rag",
-        "rrf",
-        "search-engine",
-        "web-scraping",
-        "web-search"
+        "no-api-key"
       ],
       "license": "MIT",
-      "pushedAt": "2026-09-23T03:27:03Z",
-      "createdAt": "2026-09-23T00:24:28Z"
+      "pushedAt": "2026-09-23T06:02:40Z",
+      "createdAt": "2026-09-22T22:29:52Z"
     },
     {
-      "name": "screenshot-paste-assistant",
-      "description": "Paste Win+Shift+S screenshots straight into any folder with Ctrl+V on Windows - restores the missing CF_HDROP file format while keeping image formats. 截图后 Ctrl+V 直接粘贴成图片文件。",
+      "name": "apiquota-dashboard",
+      "description": "Windows system-tray tool showing live quota and usage remaining for DeepSeek / OpenRouter / OpenCode Go / Codex - from each provider's official source. 四家 AI API 配额的托盘仪表盘，读官方数据源，不猜。",
       "stars": 1,
       "forks": 0,
       "language": "Python",
-      "url": "https://github.com/awslew/screenshot-paste-assistant",
+      "url": "https://github.com/awslew/apiquota-dashboard",
       "homepage": null,
       "topics": [
-        "automation",
-        "clipboard",
-        "productivity",
-        "screenshot",
+        "api-quota",
+        "dashboard",
+        "deepseek",
+        "openrouter",
+        "quota",
         "system-tray",
         "tray-icon",
-        "windows",
-        "windows-utility"
+        "windows"
+      ],
+      "license": "NOASSERTION",
+      "pushedAt": "2026-09-23T05:20:07Z",
+      "createdAt": "2026-08-12T17:43:57Z"
+    },
+    {
+      "name": "lottery-one-pick",
+      "description": "每期只出 1 注的超级大乐透选号工具：排除池随机 + 历史/前区/后区三关过筛（含数据更新、筛号器、开奖对账）。A one-ticket-per-draw picker for China's Super Lotto: sample from your filtered pool, validate against structural rules and a history-collision check.",
+      "stars": 1,
+      "forks": 0,
+      "language": "Python",
+      "url": "https://github.com/awslew/lottery-one-pick",
+      "homepage": null,
+      "topics": [
+        "china",
+        "cli",
+        "data-analysis",
+        "lottery"
       ],
       "license": "MIT",
-      "pushedAt": "2026-09-23T02:53:46Z",
-      "createdAt": "2026-08-12T17:43:07Z"
+      "pushedAt": "2026-09-23T05:19:20Z",
+      "createdAt": "2026-09-23T00:26:44Z"
     },
     {
       "name": "continuity-orchestrator",
@@ -79,92 +95,8 @@
         "mcp-server"
       ],
       "license": "MIT",
-      "pushedAt": "2026-09-23T00:28:28Z",
+      "pushedAt": "2026-09-23T05:19:16Z",
       "createdAt": "2026-09-23T00:26:41Z"
-    },
-    {
-      "name": "lottery-one-pick",
-      "description": "每期只出 1 注的超级大乐透选号工具：排除池随机 + 历史/前区/后区三关过筛（含数据更新、筛号器、开奖对账）。A one-ticket-per-draw picker for China's Super Lotto: sample from your filtered pool, validate against structural rules and a history-collision check.",
-      "stars": 1,
-      "forks": 0,
-      "language": "Python",
-      "url": "https://github.com/awslew/lottery-one-pick",
-      "homepage": null,
-      "topics": [
-        "china",
-        "cli",
-        "data-analysis",
-        "lottery"
-      ],
-      "license": "MIT",
-      "pushedAt": "2026-09-23T00:28:19Z",
-      "createdAt": "2026-09-23T00:26:44Z"
-    },
-    {
-      "name": "codex-agent-chain",
-      "description": "A local async MCP job orchestrator - turn a 10-second MCP call into a job that runs for hours in the background. Windows-verified, unattended AI coding agents. 把「10 秒的 MCP 调用」变成「后台跑三小时的作业」：本地异步任务编排器。",
-      "stars": 1,
-      "forks": 0,
-      "language": "TypeScript",
-      "url": "https://github.com/awslew/codex-agent-chain",
-      "homepage": null,
-      "topics": [
-        "automation",
-        "claude-code",
-        "codex",
-        "job-queue",
-        "mcp",
-        "mcp-server",
-        "orchestrator",
-        "task-orchestrator",
-        "windows"
-      ],
-      "license": "MIT",
-      "pushedAt": "2026-09-23T00:17:00Z",
-      "createdAt": "2026-09-23T00:16:49Z"
-    },
-    {
-      "name": "codex-auto-resume-trio",
-      "description": "Auto-resume quota-interrupted Codex sessions when quota resets, plus a read-only status page, system tray, project overview, and a 4-provider API quota dashboard. Codex 无人值守续跑 + 项目总谱 + API 配额（三合一）。",
-      "stars": 1,
-      "forks": 0,
-      "language": "TypeScript",
-      "url": "https://github.com/awslew/codex-auto-resume-trio",
-      "homepage": null,
-      "topics": [
-        "automation",
-        "codex",
-        "codex-cli",
-        "codex-desktop",
-        "developer-tools",
-        "quota",
-        "system-tray",
-        "tray-icon"
-      ],
-      "license": "NOASSERTION",
-      "pushedAt": "2026-09-22T23:40:01Z",
-      "createdAt": "2026-09-22T22:57:13Z"
-    },
-    {
-      "name": "webgpt-drive",
-      "description": "Drive your logged-in web ChatGPT from any coding agent - queries, image generation, reference-image editing, model/reasoning switching, plugin selection. No API key, no account switching. 让 agent 直接用你已登录的网页版 ChatGPT。",
-      "stars": 1,
-      "forks": 0,
-      "language": "JavaScript",
-      "url": "https://github.com/awslew/webgpt-drive",
-      "homepage": null,
-      "topics": [
-        "browser-automation",
-        "chatgpt",
-        "developer-tools",
-        "gpt-image",
-        "image-generation",
-        "mcp",
-        "no-api-key"
-      ],
-      "license": "MIT",
-      "pushedAt": "2026-09-22T22:31:37Z",
-      "createdAt": "2026-09-22T22:29:52Z"
     },
     {
       "name": "ds-vision-kit",
@@ -186,30 +118,98 @@
         "vlm"
       ],
       "license": "MIT",
-      "pushedAt": "2026-08-13T10:58:43Z",
+      "pushedAt": "2026-09-23T05:19:07Z",
       "createdAt": "2026-08-13T09:36:22Z"
     },
     {
-      "name": "apiquota-dashboard",
-      "description": "Windows system-tray tool showing live quota and usage remaining for DeepSeek / OpenRouter / OpenCode Go / Codex - from each provider's official source. 四家 AI API 配额的托盘仪表盘，读官方数据源，不猜。",
+      "name": "screenshot-paste-assistant",
+      "description": "Paste Win+Shift+S screenshots straight into any folder with Ctrl+V on Windows - restores the missing CF_HDROP file format while keeping image formats. 截图后 Ctrl+V 直接粘贴成图片文件。",
       "stars": 1,
       "forks": 0,
       "language": "Python",
-      "url": "https://github.com/awslew/apiquota-dashboard",
+      "url": "https://github.com/awslew/screenshot-paste-assistant",
       "homepage": null,
       "topics": [
-        "api-quota",
-        "dashboard",
-        "deepseek",
-        "openrouter",
-        "quota",
+        "automation",
+        "clipboard",
+        "productivity",
+        "screenshot",
         "system-tray",
         "tray-icon",
+        "windows",
+        "windows-utility"
+      ],
+      "license": "MIT",
+      "pushedAt": "2026-09-23T05:19:01Z",
+      "createdAt": "2026-08-12T17:43:07Z"
+    },
+    {
+      "name": "codex-auto-resume-trio",
+      "description": "Auto-resume quota-interrupted Codex sessions when quota resets, plus a read-only status page, system tray, project overview, and a 4-provider API quota dashboard. Codex 无人值守续跑 + 项目总谱 + API 配额（三合一）。",
+      "stars": 1,
+      "forks": 0,
+      "language": "TypeScript",
+      "url": "https://github.com/awslew/codex-auto-resume-trio",
+      "homepage": null,
+      "topics": [
+        "automation",
+        "codex",
+        "codex-cli",
+        "codex-desktop",
+        "developer-tools",
+        "quota",
+        "system-tray",
+        "tray-icon"
+      ],
+      "license": "NOASSERTION",
+      "pushedAt": "2026-09-23T05:18:56Z",
+      "createdAt": "2026-09-22T22:57:13Z"
+    },
+    {
+      "name": "codex-job-orchestrator",
+      "description": "Codex-led async MCP job orchestrator: your Codex session dispatches long-running jobs to Claude Code, Codex subagents or DeepSeek Harness, then waits event-driven. Codex 主导的本地异步 MCP 任务编排器：主会话派活给 Claude Code / Codex 子代理 / DeepSeek Harness，事件驱动等待，作业可断线恢复。",
+      "stars": 1,
+      "forks": 0,
+      "language": "TypeScript",
+      "url": "https://github.com/awslew/codex-job-orchestrator",
+      "homepage": null,
+      "topics": [
+        "automation",
+        "claude-code",
+        "codex",
+        "job-queue",
+        "mcp",
+        "mcp-server",
+        "orchestrator",
+        "task-orchestrator",
         "windows"
       ],
       "license": "MIT",
-      "pushedAt": "2026-08-13T10:04:42Z",
-      "createdAt": "2026-08-12T17:43:57Z"
+      "pushedAt": "2026-09-23T05:18:49Z",
+      "createdAt": "2026-09-23T00:16:49Z"
+    },
+    {
+      "name": "web-search-mcp",
+      "description": "Free multi-engine web search & content extraction MCP server for AI coding agents - no API key required. 免费多引擎联网检索与正文抽取 MCP 服务器：中文走国内引擎融合，英文走国际链，含 RRF 融合排序与结果缓存。",
+      "stars": 1,
+      "forks": 0,
+      "language": "JavaScript",
+      "url": "https://github.com/awslew/web-search-mcp",
+      "homepage": "https://github.com/awslew/web-search-mcp#readme",
+      "topics": [
+        "llm",
+        "mcp",
+        "mcp-server",
+        "no-api-key",
+        "rag",
+        "rrf",
+        "search-engine",
+        "web-scraping",
+        "web-search"
+      ],
+      "license": "MIT",
+      "pushedAt": "2026-09-23T03:43:57Z",
+      "createdAt": "2026-09-23T00:24:28Z"
     }
   ],
   "languages": [
@@ -227,14 +227,14 @@
     }
   ],
   "contribution": {
-    "yearTotal": 34,
-    "yearCommits": 24,
+    "yearTotal": 47,
+    "yearCommits": 36,
     "prs": 0,
-    "issues": 0,
+    "issues": 1,
     "reposContributed": 7,
-    "totalCommits": 125,
-    "activeDaysInWindow": 2,
-    "maxPerDay": 31,
+    "totalCommits": 35,
+    "activeDaysInWindow": 4,
+    "maxPerDay": 42,
     "days": [
       {
         "date": "2025-09-21",
@@ -1863,12 +1863,12 @@
       },
       {
         "date": "2026-08-12",
-        "contributionCount": 0,
+        "contributionCount": 2,
         "weekday": 3
       },
       {
         "date": "2026-08-13",
-        "contributionCount": 3,
+        "contributionCount": 1,
         "weekday": 4
       },
       {
@@ -2068,13 +2068,18 @@
       },
       {
         "date": "2026-09-22",
-        "contributionCount": 0,
+        "contributionCount": 2,
         "weekday": 2
       },
       {
         "date": "2026-09-23",
-        "contributionCount": 31,
+        "contributionCount": 42,
         "weekday": 3
+      },
+      {
+        "date": "2026-09-24",
+        "contributionCount": 0,
+        "weekday": 4
       }
     ]
   },
@@ -2082,6 +2087,6 @@
     "publicRepos": 9,
     "stars": 9,
     "forks": 0,
-    "accountAgeDays": 1522
+    "accountAgeDays": 1523
   }
 }

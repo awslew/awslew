@@ -37,15 +37,15 @@
 
 共 9 个公开仓库：
 
-- `web-search-mcp` JavaScript · 免费多引擎联网检索 MCP：中文走国内引擎融合，英文走国际链，不用 API key。
-- `screenshot-paste-assistant` Python · Win+Shift+S 截图后 Ctrl+V 直接粘成图片文件，恢复缺失的 CF_HDROP。
-- `continuity-orchestrator` TypeScript · 让任意 MCP 客户端读取你明确共享的本地项目源码，真实路径与行号。
-- `lottery-one-pick` Python · 每期只出 1 注的大乐透选号工具：排除池随机加三关过筛。
-- `codex-agent-chain` TypeScript · 把 10 秒的 MCP 调用变成后台跑几小时的异步作业，Windows 上无人值守。
-- `codex-auto-resume-trio` TypeScript · Codex 额度中断后自动续跑，附只读状态页与四家 API 配额托盘。
 - `webgpt-drive` JavaScript · 用已登录的网页版 ChatGPT 驱动 agent：查询、生图、参考图编辑，无需切换账号。
-- `ds-vision-kit` Python · 给纯文本 AI 补上视觉的通用视觉层，可插拔 Claude Code skill。
 - `apiquota-dashboard` Python · 四家 AI API 配额的 Windows 托盘仪表盘，只读官方数据源，不猜。
+- `lottery-one-pick` Python · 每期只出 1 注的大乐透选号工具：排除池随机加三关过筛。
+- `continuity-orchestrator` TypeScript · 让任意 MCP 客户端读取你明确共享的本地项目源码，真实路径与行号。
+- `ds-vision-kit` Python · 给纯文本 AI 补上视觉的通用视觉层，可插拔 Claude Code skill。
+- `screenshot-paste-assistant` Python · Win+Shift+S 截图后 Ctrl+V 直接粘成图片文件，恢复缺失的 CF_HDROP。
+- `codex-auto-resume-trio` TypeScript · Codex 额度中断后自动续跑，附只读状态页与四家 API 配额托盘。
+- `codex-job-orchestrator` TypeScript · Codex-led async MCP job orchestrator: your Codex session dispatches long-running jobs to Claude Code, Codex subagents or DeepSeek Harness, then waits event-driven. Codex 主导的本地异步 MCP 任务编排器：主会话派活给 Claude Code / Codex 子代理 / DeepSeek Harness，事件驱动等待，作业可断线恢复。
+- `web-search-mcp` JavaScript · 免费多引擎联网检索 MCP：中文走国内引擎融合，英文走国际链，不用 API key。
 
 ---
 
@@ -72,6 +72,6 @@
 
 <br>
 
-<sub>125 commits · 9 repos · 每日由 GitHub Actions 自动更新</sub>
+<sub>35 commits · 9 repos · 每日由 GitHub Actions 自动更新</sub>
 
 </div>
