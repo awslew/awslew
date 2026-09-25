@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T07:21:38.841Z",
+  "generatedAt": "2026-09-25T08:52:10.388Z",
   "owner": "awslew",
   "user": {
     "login": "awslew",
@@ -25,15 +25,15 @@
       "url": "https://github.com/awslew/continuity-orchestrator",
       "homepage": null,
       "topics": [
+        "api-client",
+        "claude-code",
         "developer-tools",
         "local-first",
         "mcp",
-        "api-client",
-        "claude-code",
         "mcp-client",
         "mcp-server"
       ],
-      "license": null,
+      "license": "MIT",
       "pushedAt": "2026-09-25T07:18:58Z",
       "createdAt": "2026-09-23T00:26:41Z"
     },
@@ -56,7 +56,7 @@
         "task-orchestrator",
         "windows"
       ],
-      "license": null,
+      "license": "MIT",
       "pushedAt": "2026-09-25T07:18:55Z",
       "createdAt": "2026-09-23T00:16:49Z"
     },
@@ -78,7 +78,7 @@
         "system-tray",
         "tray-icon"
       ],
-      "license": null,
+      "license": "NOASSERTION",
       "pushedAt": "2026-09-25T07:18:51Z",
       "createdAt": "2026-09-22T22:57:13Z"
     },
@@ -99,7 +99,7 @@
         "mcp",
         "no-api-key"
       ],
-      "license": null,
+      "license": "MIT",
       "pushedAt": "2026-09-25T07:19:17Z",
       "createdAt": "2026-09-22T22:29:52Z"
     },
@@ -112,17 +112,17 @@
       "url": "https://github.com/awslew/ds-vision-kit",
       "homepage": null,
       "topics": [
+        "ai-agents",
         "claude-code",
         "claude-skills",
         "deepseek",
+        "image-to-text",
         "multimodal",
         "ocr",
         "vision",
-        "vlm",
-        "ai-agents",
-        "image-to-text"
+        "vlm"
       ],
-      "license": null,
+      "license": "MIT",
       "pushedAt": "2026-09-25T07:19:02Z",
       "createdAt": "2026-08-13T09:36:22Z"
     },
@@ -145,7 +145,7 @@
         "web-scraping",
         "web-search"
       ],
-      "license": null,
+      "license": "MIT",
       "pushedAt": "2026-09-25T07:19:14Z",
       "createdAt": "2026-09-23T00:24:28Z"
     },
@@ -167,7 +167,7 @@
         "tray-icon",
         "windows"
       ],
-      "license": null,
+      "license": "NOASSERTION",
       "pushedAt": "2026-09-25T07:18:48Z",
       "createdAt": "2026-08-12T17:43:57Z"
     },
@@ -189,7 +189,7 @@
         "windows",
         "windows-utility"
       ],
-      "license": null,
+      "license": "MIT",
       "pushedAt": "2026-09-25T07:19:10Z",
       "createdAt": "2026-08-12T17:43:07Z"
     },
@@ -207,7 +207,7 @@
         "data-analysis",
         "lottery"
       ],
-      "license": null,
+      "license": "MIT",
       "pushedAt": "2026-09-25T07:19:06Z",
       "createdAt": "2026-09-23T00:26:44Z"
     }
@@ -227,14 +227,14 @@
     }
   ],
   "contribution": {
-    "yearTotal": 48,
-    "yearCommits": 37,
+    "yearTotal": 58,
+    "yearCommits": 47,
     "prs": 0,
     "issues": 1,
-    "reposContributed": 7,
-    "totalCommits": 146,
-    "activeDaysInWindow": 3,
-    "maxPerDay": 44,
+    "reposContributed": 10,
+    "totalCommits": 46,
+    "activeDaysInWindow": 5,
+    "maxPerDay": 42,
     "days": [
       {
         "date": "2025-09-21",
@@ -1863,12 +1863,12 @@
       },
       {
         "date": "2026-08-12",
-        "contributionCount": 0,
+        "contributionCount": 2,
         "weekday": 3
       },
       {
         "date": "2026-08-13",
-        "contributionCount": 3,
+        "contributionCount": 1,
         "weekday": 4
       },
       {
@@ -2068,12 +2068,12 @@
       },
       {
         "date": "2026-09-22",
-        "contributionCount": 0,
+        "contributionCount": 2,
         "weekday": 2
       },
       {
         "date": "2026-09-23",
-        "contributionCount": 44,
+        "contributionCount": 42,
         "weekday": 3
       },
       {
@@ -2083,7 +2083,7 @@
       },
       {
         "date": "2026-09-25",
-        "contributionCount": 1,
+        "contributionCount": 11,
         "weekday": 5
       }
     ]
