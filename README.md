@@ -12,12 +12,13 @@
 
 ## 现在在做什么
 
-给 AI 编码助手造**本地工具**。不是又一个 API 封装，而是那些你必须自己写一遍的东西：让 agent 读得到、跑得久、看得见、用得顺手。
+我做的是帮 AI 编码工具跨过实际使用障碍的本地项目。每个仓库先回答“它能帮你解决什么事”：
 
-- **检索要能落地** —— 中文查询走国内引擎融合，英文走国际链，RRF 交叉校验，不要 key
-- **作业要能跑久** —— 一次 MCP 调用被截断在 10 秒，那就把它变成后台跑几小时的作业
-- **配额要能看见** —— 从官方数据源读取 API 余额与订阅使用限额，放在托盘上
-- **纯文本模型要看得见** —— 给 DeepSeek / GLM 这类模型补一层视觉
+- **想在 Chat 里直接处理本机项目** —— [continuity-orchestrator](https://github.com/awslew/continuity-orchestrator) 的 Pro 模式让 Chat 端插件按你的指令读取、修改并测试本地代码；需要明确开启本地访问。
+- **Codex 额度快用完，任务还没做完** —— 同仓库的 Plus 模式目标是交给还有额度的网页版 ChatGPT 继续，等 Codex 恢复后回到原线程。真实网页接力尚未端到端验收。
+- **想把 Codex 额度用在关键判断上** —— [codex-job-orchestrator](https://github.com/awslew/codex-job-orchestrator) 的三条任务路径按职责分工：主会话定方案并验收，简单执行与复杂推理交给合适的 agent。
+- **额度重置时人不在电脑前** —— [codex-auto-resume-trio](https://github.com/awslew/codex-auto-resume-trio) 守护选定的 Codex 会话，确认因额度中断后，在恢复时继续同一个会话。
+- **agent 要看图、查资料或求助网页版 ChatGPT** —— 视觉、搜索与网页会话工具让原任务继续进行；额度看板和截图助手解决日常操作中的小麻烦。
 
 项目文档以中英双语为主；许可与支持平台请以各仓库说明为准。
 
@@ -37,15 +38,15 @@
 
 共 9 个公开仓库：
 
-- `webgpt-drive` JavaScript · 让编码 agent 复用已登录的 ChatGPT 网页会话：问答、生图和参考图编辑。
-- `apiquota-dashboard` Python · Windows 托盘看 DeepSeek/OpenRouter 余额及 OpenCode Go/Codex 使用额度。
-- `lottery-one-pick` Python · 大乐透每期随机筛出一注并开奖对账；形态过滤，不预测中奖。
-- `continuity-orchestrator` TypeScript · 让 MCP 客户端读取本地项目；可选实验性 Pro 模式支持编辑、快照和测试。
-- `ds-vision-kit` Python · 给纯文本 agent 接入视觉模型，处理 OCR、图表、UI 截图等图像任务。
-- `screenshot-paste-assistant` Python · 让 Windows 截图可直接 Ctrl+V 粘贴为文件，且保留普通图片粘贴。
-- `codex-auto-resume-trio` TypeScript · Codex 因额度停下后，重置时续跑原会话；附状态页、项目总览与配额看板。
-- `codex-job-orchestrator` TypeScript · 让 Codex 通过 MCP 派发 Claude Code 或 DSH 长作业，后台运行并等待结果。
-- `web-search-mcp` JavaScript · 给 AI 编码助手接入多引擎联网搜索与正文抽取，无需 API key。
+- `continuity-orchestrator` TypeScript · Pro：Chat 插件直接读改本机项目；Plus 目标：Codex 与网页 ChatGPT 接力（真实接力未验收）。
+- `codex-job-orchestrator` TypeScript · 主会话留额度做决策；简单执行与复杂推理按能力分给三条 agent 路径。
+- `codex-auto-resume-trio` TypeScript · Codex 因额度停工？重置后自动续跑同一个会话，后台可查看状态。
+- `webgpt-drive` JavaScript · 本地 agent 遇到难题时，用已登录的 ChatGPT 网页版求助或生图，不另付 API 费。
+- `ds-vision-kit` Python · 纯文本 agent 看不懂截图或图表？转成结构化文字，让原 agent 继续做事。
+- `web-search-mcp` JavaScript · agent 没有搜索 API key？多引擎查可靠资料并抽取可读正文。
+- `apiquota-dashboard` Python · 多个 AI 服务额度散在各处？托盘一页看余额和限额，长任务前心里有数。
+- `screenshot-paste-assistant` Python · Win+Shift+S 截图后，在文件夹 Ctrl+V 直接得到图片文件。
+- `lottery-one-pick` Python · 大乐透每期只留 1 注：按排除号随机筛选、保存记录、开奖对账；不预测中奖。
 
 ---
 
@@ -72,6 +73,6 @@
 
 <br>
 
-<sub>136 commits · 9 repos · 每日由 GitHub Actions 自动更新</sub>
+<sub>146 commits · 9 repos · 每日由 GitHub Actions 自动更新</sub>
 
 </div>

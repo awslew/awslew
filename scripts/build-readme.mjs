@@ -34,8 +34,6 @@ const dual = (name, alt) =>
   `  <img alt="${alt}" src="./assets/${name}-dark.svg" width="${IMG_W}">\n` +
   `</picture>`;
 
-const picked = repos.slice(0, 6);
-
 /* 项目清单：图片之外再给一份纯文本，图片挂了 / 爬虫 / AI 检索都读得到。
    用列表而不是宽表格 —— 窄栏里 4 列表格会把每行挤成 5 行高。
    注意这里不再重复链接和定位（上面卡片已有），只补机器可读的完整索引。 */
@@ -53,12 +51,13 @@ ${dual('hero', `${owner} — local-first tooling for AI coding agents`)}
 
 ## 现在在做什么
 
-给 AI 编码助手造**本地工具**。不是又一个 API 封装，而是那些你必须自己写一遍的东西：让 agent 读得到、跑得久、看得见、用得顺手。
+我做的是帮 AI 编码工具跨过实际使用障碍的本地项目。每个仓库先回答“它能帮你解决什么事”：
 
-- **检索要能落地** —— 中文查询走国内引擎融合，英文走国际链，RRF 交叉校验，不要 key
-- **作业要能跑久** —— 一次 MCP 调用被截断在 10 秒，那就把它变成后台跑几小时的作业
-- **配额要能看见** —— 从官方数据源读取 API 余额与订阅使用限额，放在托盘上
-- **纯文本模型要看得见** —— 给 DeepSeek / GLM 这类模型补一层视觉
+- **想在 Chat 里直接处理本机项目** —— [continuity-orchestrator](https://github.com/awslew/continuity-orchestrator) 的 Pro 模式让 Chat 端插件按你的指令读取、修改并测试本地代码；需要明确开启本地访问。
+- **Codex 额度快用完，任务还没做完** —— 同仓库的 Plus 模式目标是交给还有额度的网页版 ChatGPT 继续，等 Codex 恢复后回到原线程。真实网页接力尚未端到端验收。
+- **想把 Codex 额度用在关键判断上** —— [codex-job-orchestrator](https://github.com/awslew/codex-job-orchestrator) 的三条任务路径按职责分工：主会话定方案并验收，简单执行与复杂推理交给合适的 agent。
+- **额度重置时人不在电脑前** —— [codex-auto-resume-trio](https://github.com/awslew/codex-auto-resume-trio) 守护选定的 Codex 会话，确认因额度中断后，在恢复时继续同一个会话。
+- **agent 要看图、查资料或求助网页版 ChatGPT** —— 视觉、搜索与网页会话工具让原任务继续进行；额度看板和截图助手解决日常操作中的小麻烦。
 
 项目文档以中英双语为主；许可与支持平台请以各仓库说明为准。
 

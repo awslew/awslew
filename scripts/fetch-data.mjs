@@ -15,6 +15,18 @@ const HERE = dirname(fileURLToPath(import.meta.url));
 const ROOT = resolve(HERE, '..');
 const OWNER = process.env.PROFILE_OWNER || 'awslew';
 const TOKEN = process.env.GITHUB_TOKEN || process.env.GH_TOKEN || '';
+const PROJECT_ORDER = new Map([
+  'continuity-orchestrator',
+  'codex-job-orchestrator',
+  'codex-auto-resume-trio',
+  'webgpt-drive',
+  'ds-vision-kit',
+  'web-search-mcp',
+  'apiquota-dashboard',
+  'screenshot-paste-assistant',
+  'lottery-one-pick',
+].map((name, index) => [name, index]));
+const projectRank = (name) => PROJECT_ORDER.get(name) ?? Number.MAX_SAFE_INTEGER;
 
 const API = 'https://api.github.com';
 
@@ -173,7 +185,7 @@ async function main() {
     owner: OWNER,
     user,
     repos: repos
-      .sort((a, b) => b.stargazerCount - a.stargazerCount || new Date(b.pushedAt) - new Date(a.pushedAt))
+      .sort((a, b) => projectRank(a.name) - projectRank(b.name) || b.stargazerCount - a.stargazerCount || new Date(b.pushedAt) - new Date(a.pushedAt))
       .map((r) => ({
         name: r.name,
         description: r.description,

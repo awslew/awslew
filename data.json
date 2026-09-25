@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T06:40:33.568Z",
+  "generatedAt": "2026-09-25T07:21:38.841Z",
   "owner": "awslew",
   "user": {
     "login": "awslew",
@@ -17,69 +17,8 @@
   },
   "repos": [
     {
-      "name": "webgpt-drive",
-      "description": "Use your signed-in ChatGPT web session from a coding agent for Q&A, image generation and editing via agentify-desktop; no API key. 复用现有网页会话。",
-      "stars": 1,
-      "forks": 0,
-      "language": "JavaScript",
-      "url": "https://github.com/awslew/webgpt-drive",
-      "homepage": null,
-      "topics": [
-        "browser-automation",
-        "chatgpt",
-        "developer-tools",
-        "gpt-image",
-        "image-generation",
-        "mcp",
-        "no-api-key"
-      ],
-      "license": null,
-      "pushedAt": "2026-09-23T06:02:40Z",
-      "createdAt": "2026-09-22T22:29:52Z"
-    },
-    {
-      "name": "apiquota-dashboard",
-      "description": "Windows tray dashboard for DeepSeek/OpenRouter balances and OpenCode Go/Codex usage limits, from official sources. 一眼看清余额与额度。",
-      "stars": 1,
-      "forks": 0,
-      "language": "Python",
-      "url": "https://github.com/awslew/apiquota-dashboard",
-      "homepage": null,
-      "topics": [
-        "api-quota",
-        "dashboard",
-        "deepseek",
-        "openrouter",
-        "quota",
-        "system-tray",
-        "tray-icon",
-        "windows"
-      ],
-      "license": null,
-      "pushedAt": "2026-09-23T05:20:07Z",
-      "createdAt": "2026-08-12T17:43:57Z"
-    },
-    {
-      "name": "lottery-one-pick",
-      "description": "超级大乐透每期只选 1 注：排除号池随机取号、形态筛选、开奖对账；不预测中奖。 Pick one filtered ticket per draw; no prediction.",
-      "stars": 1,
-      "forks": 0,
-      "language": "Python",
-      "url": "https://github.com/awslew/lottery-one-pick",
-      "homepage": null,
-      "topics": [
-        "china",
-        "cli",
-        "data-analysis",
-        "lottery"
-      ],
-      "license": null,
-      "pushedAt": "2026-09-23T05:19:20Z",
-      "createdAt": "2026-09-23T00:26:44Z"
-    },
-    {
       "name": "continuity-orchestrator",
-      "description": "Let MCP chats inspect local projects with real paths and lines; opt-in experimental Pro mode can edit, snapshot and test code. 本地项目读取与可选编辑。",
+      "description": "Pro：Chat 端调用插件，直接读取、修改并测试本机项目。Plus 目标：Codex 额度不足时交给网页版 ChatGPT 接着做，恢复后回原线程；真实网页接力尚未端到端验收。",
       "stars": 1,
       "forks": 0,
       "language": "TypeScript",
@@ -95,79 +34,12 @@
         "mcp-server"
       ],
       "license": null,
-      "pushedAt": "2026-09-23T05:19:16Z",
+      "pushedAt": "2026-09-25T07:18:58Z",
       "createdAt": "2026-09-23T00:26:41Z"
     },
     {
-      "name": "ds-vision-kit",
-      "description": "Give text-only AI agents vision through OpenAI-compatible models: OCR, charts, UI screenshots and image Q&A. 让纯文本 agent 看懂图片。",
-      "stars": 1,
-      "forks": 0,
-      "language": "Python",
-      "url": "https://github.com/awslew/ds-vision-kit",
-      "homepage": null,
-      "topics": [
-        "claude-code",
-        "claude-skills",
-        "deepseek",
-        "multimodal",
-        "ocr",
-        "vision",
-        "vlm",
-        "ai-agents",
-        "image-to-text"
-      ],
-      "license": null,
-      "pushedAt": "2026-09-23T05:19:07Z",
-      "createdAt": "2026-08-13T09:36:22Z"
-    },
-    {
-      "name": "screenshot-paste-assistant",
-      "description": "Paste Win+Shift+S screenshots as image files into Windows folders with Ctrl+V, while normal image pasting still works. 截图即文件。",
-      "stars": 1,
-      "forks": 0,
-      "language": "Python",
-      "url": "https://github.com/awslew/screenshot-paste-assistant",
-      "homepage": null,
-      "topics": [
-        "automation",
-        "clipboard",
-        "productivity",
-        "screenshot",
-        "system-tray",
-        "tray-icon",
-        "windows",
-        "windows-utility"
-      ],
-      "license": null,
-      "pushedAt": "2026-09-23T05:19:01Z",
-      "createdAt": "2026-08-12T17:43:07Z"
-    },
-    {
-      "name": "codex-auto-resume-trio",
-      "description": "Resume Codex sessions after usage limits reset with an opt-in background host; view status, projects and provider quotas. Codex 限额恢复后续跑。",
-      "stars": 1,
-      "forks": 0,
-      "language": "TypeScript",
-      "url": "https://github.com/awslew/codex-auto-resume-trio",
-      "homepage": null,
-      "topics": [
-        "automation",
-        "codex",
-        "codex-cli",
-        "codex-desktop",
-        "developer-tools",
-        "quota",
-        "system-tray",
-        "tray-icon"
-      ],
-      "license": null,
-      "pushedAt": "2026-09-23T05:18:56Z",
-      "createdAt": "2026-09-22T22:57:13Z"
-    },
-    {
       "name": "codex-job-orchestrator",
-      "description": "Run long Claude Code or DeepSeek Harness jobs beyond MCP timeouts; Codex gets a job ID, waits for events and recovers after restarts. 本地异步任务编排。",
+      "description": "想省 Codex 主会话额度？方案与验收留给主 agent，简单执行和复杂推理走合适的 agent 路径；Claude Code/DSH 长作业可后台运行。 Route work by role to save Codex quota.",
       "stars": 1,
       "forks": 0,
       "language": "TypeScript",
@@ -185,12 +57,78 @@
         "windows"
       ],
       "license": null,
-      "pushedAt": "2026-09-23T05:18:49Z",
+      "pushedAt": "2026-09-25T07:18:55Z",
       "createdAt": "2026-09-23T00:16:49Z"
     },
     {
+      "name": "codex-auto-resume-trio",
+      "description": "Codex 长任务因额度停下？额度恢复时自动续跑同一个会话；附运行状态、项目进展和额度看板。 Resume the same Codex session after quota resets.",
+      "stars": 1,
+      "forks": 0,
+      "language": "TypeScript",
+      "url": "https://github.com/awslew/codex-auto-resume-trio",
+      "homepage": null,
+      "topics": [
+        "automation",
+        "codex",
+        "codex-cli",
+        "codex-desktop",
+        "developer-tools",
+        "quota",
+        "system-tray",
+        "tray-icon"
+      ],
+      "license": null,
+      "pushedAt": "2026-09-25T07:18:51Z",
+      "createdAt": "2026-09-22T22:57:13Z"
+    },
+    {
+      "name": "webgpt-drive",
+      "description": "本地编码 agent 卡住或要生图？复用已登录的网页版 ChatGPT 求助、生成或编辑图片，不另付 API 费。 Use your signed-in ChatGPT web session from a coding agent.",
+      "stars": 1,
+      "forks": 0,
+      "language": "JavaScript",
+      "url": "https://github.com/awslew/webgpt-drive",
+      "homepage": null,
+      "topics": [
+        "browser-automation",
+        "chatgpt",
+        "developer-tools",
+        "gpt-image",
+        "image-generation",
+        "mcp",
+        "no-api-key"
+      ],
+      "license": null,
+      "pushedAt": "2026-09-25T07:19:17Z",
+      "createdAt": "2026-09-22T22:29:52Z"
+    },
+    {
+      "name": "ds-vision-kit",
+      "description": "纯文本 agent 看不懂截图和图表？把图片转成结构化文字，让原 agent 继续完成任务。 Help text-only agents understand screenshots and charts.",
+      "stars": 1,
+      "forks": 0,
+      "language": "Python",
+      "url": "https://github.com/awslew/ds-vision-kit",
+      "homepage": null,
+      "topics": [
+        "claude-code",
+        "claude-skills",
+        "deepseek",
+        "multimodal",
+        "ocr",
+        "vision",
+        "vlm",
+        "ai-agents",
+        "image-to-text"
+      ],
+      "license": null,
+      "pushedAt": "2026-09-25T07:19:02Z",
+      "createdAt": "2026-08-13T09:36:22Z"
+    },
+    {
       "name": "web-search-mcp",
-      "description": "MCP web search for coding agents: free multi-engine results, quality ranking and readable page extraction; no API key required. 多引擎联网检索。",
+      "description": "编码 agent 查资料缺搜索 API key？免 key 搜多个引擎、优先可靠来源并抽取可读正文。 Search the web and read pages without an API key.",
       "stars": 1,
       "forks": 0,
       "language": "JavaScript",
@@ -208,8 +146,70 @@
         "web-search"
       ],
       "license": null,
-      "pushedAt": "2026-09-23T03:43:57Z",
+      "pushedAt": "2026-09-25T07:19:14Z",
       "createdAt": "2026-09-23T00:24:28Z"
+    },
+    {
+      "name": "apiquota-dashboard",
+      "description": "多个 AI 服务的余额和用量散在各处？Windows 托盘一页查看 DeepSeek/OpenRouter 余额与 OpenCode Go/Codex 限额。 See AI balances and limits in one tray.",
+      "stars": 1,
+      "forks": 0,
+      "language": "Python",
+      "url": "https://github.com/awslew/apiquota-dashboard",
+      "homepage": null,
+      "topics": [
+        "api-quota",
+        "dashboard",
+        "deepseek",
+        "openrouter",
+        "quota",
+        "system-tray",
+        "tray-icon",
+        "windows"
+      ],
+      "license": null,
+      "pushedAt": "2026-09-25T07:18:48Z",
+      "createdAt": "2026-08-12T17:43:57Z"
+    },
+    {
+      "name": "screenshot-paste-assistant",
+      "description": "Win+Shift+S 截图后不能在文件夹粘贴？按 Ctrl+V 直接生成图片文件，普通图片粘贴照常。 Paste Windows screenshots directly as files.",
+      "stars": 1,
+      "forks": 0,
+      "language": "Python",
+      "url": "https://github.com/awslew/screenshot-paste-assistant",
+      "homepage": null,
+      "topics": [
+        "automation",
+        "clipboard",
+        "productivity",
+        "screenshot",
+        "system-tray",
+        "tray-icon",
+        "windows",
+        "windows-utility"
+      ],
+      "license": null,
+      "pushedAt": "2026-09-25T07:19:10Z",
+      "createdAt": "2026-08-12T17:43:07Z"
+    },
+    {
+      "name": "lottery-one-pick",
+      "description": "大乐透每期只留 1 注：按排除号随机选号、过滤极端形态、保存记录并开奖对账；不预测中奖。 Pick one Super Lotto ticket per draw; no predictions.",
+      "stars": 1,
+      "forks": 0,
+      "language": "Python",
+      "url": "https://github.com/awslew/lottery-one-pick",
+      "homepage": null,
+      "topics": [
+        "china",
+        "cli",
+        "data-analysis",
+        "lottery"
+      ],
+      "license": null,
+      "pushedAt": "2026-09-25T07:19:06Z",
+      "createdAt": "2026-09-23T00:26:44Z"
     }
   ],
   "languages": [
@@ -227,13 +227,13 @@
     }
   ],
   "contribution": {
-    "yearTotal": 47,
-    "yearCommits": 36,
+    "yearTotal": 48,
+    "yearCommits": 37,
     "prs": 0,
     "issues": 1,
     "reposContributed": 7,
-    "totalCommits": 136,
-    "activeDaysInWindow": 2,
+    "totalCommits": 146,
+    "activeDaysInWindow": 3,
     "maxPerDay": 44,
     "days": [
       {
@@ -2083,7 +2083,7 @@
       },
       {
         "date": "2026-09-25",
-        "contributionCount": 0,
+        "contributionCount": 1,
         "weekday": 5
       }
     ]

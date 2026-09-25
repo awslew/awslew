@@ -160,9 +160,9 @@ function hero(t) {
 
   // 三行输出
   const lines = [
-    ['awslew · local-first tooling for AI coding agents', 15, '600', fg],
-    ['给 AI 编码助手造本地工具：MCP 服务、任务编排、视觉层、Windows 实用件。', 13, '400', t.fgMuted],
-    ['9 public repos · TypeScript / Python / JavaScript · 中英双语文档', 12, '400', t.fgSubtle],
+    ['awslew · AI 工具，帮你把任务做完', 15, '600', fg],
+    ['额度不够可接力，任务可分工，本机项目可直接读改。', 13, '400', t.fgMuted],
+    ['9 个开源项目 · 视觉、搜索、配额与 Windows 效率工具', 12, '400', t.fgSubtle],
   ];
   y += 27;
   for (const [text, size, weight, color] of lines) {
@@ -193,7 +193,7 @@ function hero(t) {
     `<line x1="${PAD}" y1="${statusY - 24}" x2="${W - PAD}" y2="${statusY - 24}" stroke="${t.hairline}"/>` +
     `<circle cx="${PAD + 4}" cy="${statusY - 4}" r="3.5" fill="${t.dotGreen}"/>` +
     `<text x="${PAD + 15}" y="${statusY}" font-size="12" fill="${t.fgMuted}">` +
-    `${esc(clampToWidth('Open to collaboration · MIT licensed · 现在在啃 agent 本地工具链', W - PAD * 2 - 15, 12))}</text>`;
+    `${esc(clampToWidth('Open to collaboration · MIT licensed · 让 agent 真正帮你做事', W - PAD * 2 - 15, 12))}</text>`;
 
   return (
     svgOpen(W, H, `${data.owner} profile hero`) +
@@ -211,15 +211,15 @@ function hero(t) {
 
 /* ── 2. projects.svg：精选项目（窄栏单列卡） ──────────────── */
 const PROJECT_META = {
-  'web-search-mcp': { mark: 'WS', tag: 'MCP · 检索' },
-  'codex-agent-chain': { mark: 'AC', tag: 'MCP · 编排' },
-  'codex-auto-resume-trio': { mark: 'CR', tag: 'Codex · 自动化' },
-  'continuity-orchestrator': { mark: 'CO', tag: 'MCP · 本地文件' },
-  'webgpt-drive': { mark: 'WG', tag: '浏览器自动化' },
-  'ds-vision-kit': { mark: 'VK', tag: '视觉 · 多模态' },
-  'apiquota-dashboard': { mark: 'AQ', tag: 'Windows · 托盘' },
-  'screenshot-paste-assistant': { mark: 'SP', tag: 'Windows · 效率' },
-  'lottery-one-pick': { mark: 'LP', tag: 'Python · CLI' },
+  'web-search-mcp': { mark: 'WS', tag: 'Agent · 联网找资料' },
+  'codex-job-orchestrator': { mark: 'CJ', tag: 'Codex · 任务分工省额度' },
+  'codex-auto-resume-trio': { mark: 'CR', tag: 'Codex · 自动续跑' },
+  'continuity-orchestrator': { mark: 'CO', tag: 'Chat · 本地读改/额度接力' },
+  'webgpt-drive': { mark: 'WG', tag: 'ChatGPT · 网页求助' },
+  'ds-vision-kit': { mark: 'VK', tag: 'Agent · 看懂图片' },
+  'apiquota-dashboard': { mark: 'AQ', tag: 'Windows · 额度总览' },
+  'screenshot-paste-assistant': { mark: 'SP', tag: 'Windows · 截图成文件' },
+  'lottery-one-pick': { mark: 'LP', tag: '大乐透 · 选号对账' },
 };
 
 const LANG_COLOR = { Python: '#3572A5', TypeScript: '#3178C6', JavaScript: '#F1E05A' };
