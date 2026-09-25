@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T08:30:33.968Z",
+  "generatedAt": "2026-09-25T06:40:33.568Z",
   "owner": "awslew",
   "user": {
     "login": "awslew",
@@ -18,7 +18,7 @@
   "repos": [
     {
       "name": "webgpt-drive",
-      "description": "Drive your logged-in web ChatGPT from any coding agent - queries, image generation, reference-image editing, model/reasoning switching, plugin selection. No API key, no account switching. 让 agent 直接用你已登录的网页版 ChatGPT。",
+      "description": "Use your signed-in ChatGPT web session from a coding agent for Q&A, image generation and editing via agentify-desktop; no API key. 复用现有网页会话。",
       "stars": 1,
       "forks": 0,
       "language": "JavaScript",
@@ -33,13 +33,13 @@
         "mcp",
         "no-api-key"
       ],
-      "license": "MIT",
+      "license": null,
       "pushedAt": "2026-09-23T06:02:40Z",
       "createdAt": "2026-09-22T22:29:52Z"
     },
     {
       "name": "apiquota-dashboard",
-      "description": "Windows system-tray tool showing live quota and usage remaining for DeepSeek / OpenRouter / OpenCode Go / Codex - from each provider's official source. 四家 AI API 配额的托盘仪表盘，读官方数据源，不猜。",
+      "description": "Windows tray dashboard for DeepSeek/OpenRouter balances and OpenCode Go/Codex usage limits, from official sources. 一眼看清余额与额度。",
       "stars": 1,
       "forks": 0,
       "language": "Python",
@@ -55,13 +55,13 @@
         "tray-icon",
         "windows"
       ],
-      "license": "NOASSERTION",
+      "license": null,
       "pushedAt": "2026-09-23T05:20:07Z",
       "createdAt": "2026-08-12T17:43:57Z"
     },
     {
       "name": "lottery-one-pick",
-      "description": "每期只出 1 注的超级大乐透选号工具：排除池随机 + 历史/前区/后区三关过筛（含数据更新、筛号器、开奖对账）。A one-ticket-per-draw picker for China's Super Lotto: sample from your filtered pool, validate against structural rules and a history-collision check.",
+      "description": "超级大乐透每期只选 1 注：排除号池随机取号、形态筛选、开奖对账；不预测中奖。 Pick one filtered ticket per draw; no prediction.",
       "stars": 1,
       "forks": 0,
       "language": "Python",
@@ -73,57 +73,57 @@
         "data-analysis",
         "lottery"
       ],
-      "license": "MIT",
+      "license": null,
       "pushedAt": "2026-09-23T05:19:20Z",
       "createdAt": "2026-09-23T00:26:44Z"
     },
     {
       "name": "continuity-orchestrator",
-      "description": "Read explicitly shared local project files from any MCP chat client - real paths, line numbers, search results. No API key, no browser driver, no local model quota. 让 MCP 客户端读取你明确共享的本地项目源码；另含实验性的 Codex 额度接力。",
+      "description": "Let MCP chats inspect local projects with real paths and lines; opt-in experimental Pro mode can edit, snapshot and test code. 本地项目读取与可选编辑。",
       "stars": 1,
       "forks": 0,
       "language": "TypeScript",
       "url": "https://github.com/awslew/continuity-orchestrator",
       "homepage": null,
       "topics": [
-        "api-client",
-        "claude-code",
         "developer-tools",
         "local-first",
         "mcp",
+        "api-client",
+        "claude-code",
         "mcp-client",
         "mcp-server"
       ],
-      "license": "MIT",
+      "license": null,
       "pushedAt": "2026-09-23T05:19:16Z",
       "createdAt": "2026-09-23T00:26:41Z"
     },
     {
       "name": "ds-vision-kit",
-      "description": "Vision front-end for text-only AI agents (DeepSeek / GLM / Claude Code): a scene-agnostic vision core plus pluggable Claude Code skills - OCR, table-to-Markdown, chart reading, UI review. 为纯文本 AI 补上视觉的通用视觉层。",
+      "description": "Give text-only AI agents vision through OpenAI-compatible models: OCR, charts, UI screenshots and image Q&A. 让纯文本 agent 看懂图片。",
       "stars": 1,
       "forks": 0,
       "language": "Python",
       "url": "https://github.com/awslew/ds-vision-kit",
       "homepage": null,
       "topics": [
-        "ai-agents",
         "claude-code",
         "claude-skills",
         "deepseek",
-        "image-to-text",
         "multimodal",
         "ocr",
         "vision",
-        "vlm"
+        "vlm",
+        "ai-agents",
+        "image-to-text"
       ],
-      "license": "MIT",
+      "license": null,
       "pushedAt": "2026-09-23T05:19:07Z",
       "createdAt": "2026-08-13T09:36:22Z"
     },
     {
       "name": "screenshot-paste-assistant",
-      "description": "Paste Win+Shift+S screenshots straight into any folder with Ctrl+V on Windows - restores the missing CF_HDROP file format while keeping image formats. 截图后 Ctrl+V 直接粘贴成图片文件。",
+      "description": "Paste Win+Shift+S screenshots as image files into Windows folders with Ctrl+V, while normal image pasting still works. 截图即文件。",
       "stars": 1,
       "forks": 0,
       "language": "Python",
@@ -139,13 +139,13 @@
         "windows",
         "windows-utility"
       ],
-      "license": "MIT",
+      "license": null,
       "pushedAt": "2026-09-23T05:19:01Z",
       "createdAt": "2026-08-12T17:43:07Z"
     },
     {
       "name": "codex-auto-resume-trio",
-      "description": "Auto-resume quota-interrupted Codex sessions when quota resets, plus a read-only status page, system tray, project overview, and a 4-provider API quota dashboard. Codex 无人值守续跑 + 项目总谱 + API 配额（三合一）。",
+      "description": "Resume Codex sessions after usage limits reset with an opt-in background host; view status, projects and provider quotas. Codex 限额恢复后续跑。",
       "stars": 1,
       "forks": 0,
       "language": "TypeScript",
@@ -161,13 +161,13 @@
         "system-tray",
         "tray-icon"
       ],
-      "license": "NOASSERTION",
+      "license": null,
       "pushedAt": "2026-09-23T05:18:56Z",
       "createdAt": "2026-09-22T22:57:13Z"
     },
     {
       "name": "codex-job-orchestrator",
-      "description": "Codex-led async MCP job orchestrator: your Codex session dispatches long-running jobs to Claude Code, Codex subagents or DeepSeek Harness, then waits event-driven. Codex 主导的本地异步 MCP 任务编排器：主会话派活给 Claude Code / Codex 子代理 / DeepSeek Harness，事件驱动等待，作业可断线恢复。",
+      "description": "Run long Claude Code or DeepSeek Harness jobs beyond MCP timeouts; Codex gets a job ID, waits for events and recovers after restarts. 本地异步任务编排。",
       "stars": 1,
       "forks": 0,
       "language": "TypeScript",
@@ -184,13 +184,13 @@
         "task-orchestrator",
         "windows"
       ],
-      "license": "MIT",
+      "license": null,
       "pushedAt": "2026-09-23T05:18:49Z",
       "createdAt": "2026-09-23T00:16:49Z"
     },
     {
       "name": "web-search-mcp",
-      "description": "Free multi-engine web search & content extraction MCP server for AI coding agents - no API key required. 免费多引擎联网检索与正文抽取 MCP 服务器：中文走国内引擎融合，英文走国际链，含 RRF 融合排序与结果缓存。",
+      "description": "MCP web search for coding agents: free multi-engine results, quality ranking and readable page extraction; no API key required. 多引擎联网检索。",
       "stars": 1,
       "forks": 0,
       "language": "JavaScript",
@@ -207,7 +207,7 @@
         "web-scraping",
         "web-search"
       ],
-      "license": "MIT",
+      "license": null,
       "pushedAt": "2026-09-23T03:43:57Z",
       "createdAt": "2026-09-23T00:24:28Z"
     }
@@ -232,9 +232,9 @@
     "prs": 0,
     "issues": 1,
     "reposContributed": 7,
-    "totalCommits": 35,
-    "activeDaysInWindow": 4,
-    "maxPerDay": 42,
+    "totalCommits": 136,
+    "activeDaysInWindow": 2,
+    "maxPerDay": 44,
     "days": [
       {
         "date": "2025-09-21",
@@ -1863,12 +1863,12 @@
       },
       {
         "date": "2026-08-12",
-        "contributionCount": 2,
+        "contributionCount": 0,
         "weekday": 3
       },
       {
         "date": "2026-08-13",
-        "contributionCount": 1,
+        "contributionCount": 3,
         "weekday": 4
       },
       {
@@ -2068,18 +2068,23 @@
       },
       {
         "date": "2026-09-22",
-        "contributionCount": 2,
+        "contributionCount": 0,
         "weekday": 2
       },
       {
         "date": "2026-09-23",
-        "contributionCount": 42,
+        "contributionCount": 44,
         "weekday": 3
       },
       {
         "date": "2026-09-24",
         "contributionCount": 0,
         "weekday": 4
+      },
+      {
+        "date": "2026-09-25",
+        "contributionCount": 0,
+        "weekday": 5
       }
     ]
   },
@@ -2087,6 +2092,6 @@
     "publicRepos": 9,
     "stars": 9,
     "forks": 0,
-    "accountAgeDays": 1523
+    "accountAgeDays": 1524
   }
 }

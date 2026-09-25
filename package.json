@@ -2,7 +2,7 @@
   "name": "awslew-profile",
   "version": "1.0.0",
   "private": true,
-  "description": "GitHub profile README for awslew: self-contained SVG hero, project showcase and contribution graph, rebuilt daily by GitHub Actions.",
+  "description": "GitHub profile README for awslew: self-contained light/dark SVG project cards, rebuilt daily by GitHub Actions.",
   "type": "module",
   "scripts": {
     "data": "node scripts/fetch-data.mjs",

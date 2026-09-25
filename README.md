@@ -16,10 +16,10 @@
 
 - **检索要能落地** —— 中文查询走国内引擎融合，英文走国际链，RRF 交叉校验，不要 key
 - **作业要能跑久** —— 一次 MCP 调用被截断在 10 秒，那就把它变成后台跑几小时的作业
-- **配额要能看见** —— 四家 API 的剩余额度从官方数据源读出来，放在托盘上
+- **配额要能看见** —— 从官方数据源读取 API 余额与订阅使用限额，放在托盘上
 - **纯文本模型要看得见** —— 给 DeepSeek / GLM 这类模型补一层视觉
 
-所有项目 **MIT 许可**、**中英双语文档**、**Windows 上实测过**。
+项目文档以中英双语为主；许可与支持平台请以各仓库说明为准。
 
 ---
 
@@ -37,15 +37,15 @@
 
 共 9 个公开仓库：
 
-- `webgpt-drive` JavaScript · 用已登录的网页版 ChatGPT 驱动 agent：查询、生图、参考图编辑，无需切换账号。
-- `apiquota-dashboard` Python · 四家 AI API 配额的 Windows 托盘仪表盘，只读官方数据源，不猜。
-- `lottery-one-pick` Python · 每期只出 1 注的大乐透选号工具：排除池随机加三关过筛。
-- `continuity-orchestrator` TypeScript · 让任意 MCP 客户端读取你明确共享的本地项目源码，真实路径与行号。
-- `ds-vision-kit` Python · 给纯文本 AI 补上视觉的通用视觉层，可插拔 Claude Code skill。
-- `screenshot-paste-assistant` Python · Win+Shift+S 截图后 Ctrl+V 直接粘成图片文件，恢复缺失的 CF_HDROP。
-- `codex-auto-resume-trio` TypeScript · Codex 额度中断后自动续跑，附只读状态页与四家 API 配额托盘。
-- `codex-job-orchestrator` TypeScript · Codex-led async MCP job orchestrator: your Codex session dispatches long-running jobs to Claude Code, Codex subagents or DeepSeek Harness, then waits event-driven. Codex 主导的本地异步 MCP 任务编排器：主会话派活给 Claude Code / Codex 子代理 / DeepSeek Harness，事件驱动等待，作业可断线恢复。
-- `web-search-mcp` JavaScript · 免费多引擎联网检索 MCP：中文走国内引擎融合，英文走国际链，不用 API key。
+- `webgpt-drive` JavaScript · 让编码 agent 复用已登录的 ChatGPT 网页会话：问答、生图和参考图编辑。
+- `apiquota-dashboard` Python · Windows 托盘看 DeepSeek/OpenRouter 余额及 OpenCode Go/Codex 使用额度。
+- `lottery-one-pick` Python · 大乐透每期随机筛出一注并开奖对账；形态过滤，不预测中奖。
+- `continuity-orchestrator` TypeScript · 让 MCP 客户端读取本地项目；可选实验性 Pro 模式支持编辑、快照和测试。
+- `ds-vision-kit` Python · 给纯文本 agent 接入视觉模型，处理 OCR、图表、UI 截图等图像任务。
+- `screenshot-paste-assistant` Python · 让 Windows 截图可直接 Ctrl+V 粘贴为文件，且保留普通图片粘贴。
+- `codex-auto-resume-trio` TypeScript · Codex 因额度停下后，重置时续跑原会话；附状态页、项目总览与配额看板。
+- `codex-job-orchestrator` TypeScript · 让 Codex 通过 MCP 派发 Claude Code 或 DSH 长作业，后台运行并等待结果。
+- `web-search-mcp` JavaScript · 给 AI 编码助手接入多引擎联网搜索与正文抽取，无需 API key。
 
 ---
 
@@ -72,6 +72,6 @@
 
 <br>
 
-<sub>35 commits · 9 repos · 每日由 GitHub Actions 自动更新</sub>
+<sub>136 commits · 9 repos · 每日由 GitHub Actions 自动更新</sub>
 
 </div>
