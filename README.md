@@ -68,7 +68,7 @@
 
 <a href="https://github.com/awslew?tab=followers"><img src="https://img.shields.io/badge/followers-follow-2F81F7?style=flat-square&logo=github&logoColor=white" alt="Follow"></a>
 <a href="https://github.com/awslew?tab=repositories"><img src="https://img.shields.io/badge/repositories-9-2F81F7?style=flat-square&logo=github&logoColor=white" alt="Repositories"></a>
-<a href="https://github.com/awslew?tab=stars"><img src="https://img.shields.io/badge/stars-9-2F81F7?style=flat-square&logo=github&logoColor=white" alt="Stars"></a>
+<a href="https://github.com/awslew?tab=stars"><img src="https://img.shields.io/badge/stars-10-2F81F7?style=flat-square&logo=github&logoColor=white" alt="Stars"></a>
 <img src="https://komarev.com/ghpvc/?username=awslew&color=2F81F7&style=flat-square&label=PROFILE+VIEWS" alt="Profile views">
 
 <br>
