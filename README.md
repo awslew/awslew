@@ -36,7 +36,7 @@
 
 </div>
 
-共 9 个公开仓库：
+共 10 个公开仓库：
 
 - `continuity-orchestrator` TypeScript · Pro：Chat 插件直接读改本机项目；Plus 目标：Codex 与网页 ChatGPT 接力（真实接力未验收）。
 - `codex-job-orchestrator` TypeScript · 主会话留额度做决策；简单执行与复杂推理按能力分给三条 agent 路径。
@@ -47,6 +47,7 @@
 - `apiquota-dashboard` Python · 多个 AI 服务额度散在各处？托盘一页看余额和限额，长任务前心里有数。
 - `screenshot-paste-assistant` Python · Win+Shift+S 截图后，在文件夹 Ctrl+V 直接得到图片文件。
 - `lottery-one-pick` Python · 大乐透每期只留 1 注：按排除号随机筛选、保存记录、开奖对账；不预测中奖。
+- `desktop-assistant` Python · Windows desktop assistant with a floating todo ball, plus a phone-PC bridge: send files and text over your own Wi-Fi. Python + pywebview on PC, Kotlin + Jetpack Compose on Android. No cloud, no chat apps.
 
 ---
 
@@ -67,12 +68,12 @@
 <div align="center">
 
 <a href="https://github.com/awslew?tab=followers"><img src="https://img.shields.io/badge/followers-follow-2F81F7?style=flat-square&logo=github&logoColor=white" alt="Follow"></a>
-<a href="https://github.com/awslew?tab=repositories"><img src="https://img.shields.io/badge/repositories-9-2F81F7?style=flat-square&logo=github&logoColor=white" alt="Repositories"></a>
-<a href="https://github.com/awslew?tab=stars"><img src="https://img.shields.io/badge/stars-11-2F81F7?style=flat-square&logo=github&logoColor=white" alt="Stars"></a>
+<a href="https://github.com/awslew?tab=repositories"><img src="https://img.shields.io/badge/repositories-10-2F81F7?style=flat-square&logo=github&logoColor=white" alt="Repositories"></a>
+<a href="https://github.com/awslew?tab=stars"><img src="https://img.shields.io/badge/stars-12-2F81F7?style=flat-square&logo=github&logoColor=white" alt="Stars"></a>
 <img src="https://komarev.com/ghpvc/?username=awslew&color=2F81F7&style=flat-square&label=PROFILE+VIEWS" alt="Profile views">
 
 <br>
 
-<sub>46 commits · 9 repos · 每日由 GitHub Actions 自动更新</sub>
+<sub>73 commits · 10 repos · 每日由 GitHub Actions 自动更新</sub>
 
 </div>
